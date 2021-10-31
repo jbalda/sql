@@ -15,10 +15,10 @@ SELECT * FROM Estudiantes e WHERE  e.legajo NOT IN (SELECT i.ESTUDIANTE_legajo F
 
 --4)
 
-Tabla PROFESOR tiene un índice clousterizado para el id que es la clave primaria
-Tabla ESTUDIANTE tiene un índice clousterizado para legajo que es la clave primaria.
-Tabla CURSO tiene un índice clousterizado para código que es la clave primaria y un  índice no clousterizado para la clave foránea PROFESOR_id.
-Tabla INSCRIPCION tiene un índice clousterizado para número que es clave primaria e índices no clousterizados para CURSO_codigo y ESTUDIANTE_legajo que son claves foráneas.
+--Tabla PROFESOR tiene un índice clousterizado para el id que es la clave primaria
+--Tabla ESTUDIANTE tiene un índice clousterizado para legajo que es la clave primaria.
+--Tabla CURSO tiene un índice clousterizado para código que es la clave primaria y un  índice no clousterizado para la clave foránea PROFESOR_id.
+--Tabla INSCRIPCION tiene un índice clousterizado para número que es clave primaria e índices no clousterizados para CURSO_codigo y ESTUDIANTE_legajo --que son claves foráneas.
 
 --5)
 
